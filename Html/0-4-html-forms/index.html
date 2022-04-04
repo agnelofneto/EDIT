@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Forms</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <div><label for="fname">First name:</label> 
+             <input type="text" id="fname" name="fname">
+        </div>
+        <div><label for="lname">Last name:</label> 
+             <input type="text" id="lname" name="lname">
+        </div>
+        <div><label for="age">Age:</label> 
+            <input type="text" id="Age" name="Age">
+        </div>
+        <div>Date of Birth:<input id="date" type="date">
+        </div>
+        <div>
+            <label for="paises">Choose a car:</label>
+
+            <select name="paises" id="paises">
+              <option value="portugal">Portugal</option>
+              <option value="franca">França</option>
+              <option value="espanha">Espanha</option>
+              <option value="marrocos">Marrocos</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="comments">Comments:</label>
+
+            <textarea placeholder="Fill your comments" id="comments"name="comments" rows="15" cols="50">
+           
+            </textarea></div>
+        
+
+        
+      </form>
+</body>
+</html>
