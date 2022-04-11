@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+html, body {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.board {
+    border: 1px solid gainsboro;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.cell {
+    border: 1px dashed gainsboro;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.target {
+    background-color: gainsboro;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background: slateblue;
+    position: absolute;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+pre {
+    display: inline;
+}
+
+
+
+/* Coloca o teu CSS a partir daqui */
+.ball-0 {
+    
+    background: red;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+
+.ball-1 {
+    background: black;
+    position: absolute;
+    left: 120px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-2 {
+   
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 160px;
+    top: 0px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-3 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 80px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-4 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    right: 120px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-5 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 80px;
+    margin: 10px;
+    border-radius: 100%;
+
+
+}
+
+.ball-6 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 120px;
+    top: 160px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-7 {
+
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    right: 120px;
+    bottom: 120px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.ball-8 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 40px;
+    top: 80px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
+.ball-9 {
+    background: rgb(209, 130, 167);
+    position: abrgb(255, 0, 191)ute;
+    left: 120px;
+    top: 80px;
+    margin: 10px;
+    border-radius: 100%;
+
+}
+
