@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+
+
+ body {
+    background: gainsboro;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: linear-gradient(90deg, #ce2d20, #3e19d1);
+    color: white;
+
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 12px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    position: relative;
+    animation: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    filter: drop-shadow(5px 5px 15px #000000);
+    
+}
+.card__content {
+    background-image: linear-gradient(240deg, #e6b541, #ea3524);
+    height: 80%;
+    border-radius: 12px 12px 0  0;
+    text-align: center;
+    padding: 8px;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.card__content__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+}
+.card__log {
+    width: 50px;
+    
+}
+.card__price {
+    font-weight: bold;
+}
+.card__content__body  {
+    font-size: 12px;
+    line-height: 150%;
+    
+    padding: 8px;
+
+}
+.card__content__body__title {
+    text-align: left;
+    padding: 8px;
+}
+p {
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+.backdrop {
+   font-size: 12rem;
+    margin-top: 32px;
+    font-weight: 800;
+    letter-spacing: 20px;
+    opacity: 0.5;
+    position: absolute;
+    left: -16px;
+    bottom: 25%;
+    text-transform: uppercase;
+
+}
+button , .btn__buy {
+    background:transparent;
+    padding: 8px 14px;
+    color: blue;
+    max-height: 48px;
+    border: 0;
+    font-size: 14px;
+    border-radius: 24px;
+    border: 2px solid blue;
+    min-width: 100px;
+    text-align: center;
+    margin: 16px auto;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+.btn__buy:hover {
+    background: blue;
+    border-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+.card__content__footer {
+    display: flex;
+
+}
+.caption {
+    text-align: center;
+    color: grey;
+    position: absolute;
+    letter-spacing: 4px;
+    bottom: 16px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    bottom: 4px;
+    
+ }
+
+ .img__footer {
+    position: absolute;
+    bottom: 0;
+    width: 340PX;
+   
+
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(-10deg);
+    }
+}   
