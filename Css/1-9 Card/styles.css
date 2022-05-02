@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Fira+Sans:wght@600&display=swap");
+html {
+  background: #DCDCDC;
+}
+
+.card {
+  width: 450px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  /* --------------------------------------- CARD RIGTH ----------------------------------*/
+  /* --------------------------------------- CARD LEFT ----------------------------------*/
+}
+
+.card .card__rigth {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  background: #FFFFFF;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card .card__rigth__name {
+  margin-top: 10px;
+  font-family: "EB Garamond", serif, "Fira Sans", sans-serif;
+}
+
+.card .card__rigth .radio {
+  height: 50px;
+  width: 50px;
+  background: #0000FF;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.card .card__rigth .radio:hover {
+  -webkit-transform: scale(800%);
+          transform: scale(800%);
+  opacity: 50%;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.card .card__left {
+  width: 70%;
+  background-image: url(/assets/background__img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-bottom: 0;
+  /* --------------------------------------- DASHED ----------------------------------*/
+}
+
+.card .card__left__title {
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  font-size: 30px;
+  color: #FFFFFF;
+  padding: 8px;
+  z-index: 3;
+}
+
+.card .card__left .card__left-dashed {
+  position: absolute;
+  height: 200px;
+  width: 1px;
+  margin-left: 10%;
+  border: 0.8px dashed #FFFFFF;
+}
+
+.card .card__left-dashed::before {
+  content: " ";
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  -webkit-transform: translate(-48%, -65%);
+          transform: translate(-48%, -65%);
+}
+
+.card .card__left-dashed::after {
+  content: " ";
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  -webkit-transform: translate(-48%, -50%);
+          transform: translate(-48%, -50%);
+  bottom: -35px;
+}
+/*# sourceMappingURL=styles.css.map */
