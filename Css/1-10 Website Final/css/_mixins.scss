@@ -1,0 +1,136 @@
+@mixin btn-type1 {
+    background: none;
+    border: none;
+    height: 33px;
+    width: 77px;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+        background: $hover-color;
+        color: $primary-color;
+    }
+}
+
+@mixin btn-type1-active {
+    background: none;
+    border: none;
+    height: 33px;
+    width: 77px;
+    font-size: 14px;
+    background: $hover-color;
+    color: $primary-color;
+    cursor: pointer;
+}
+
+@mixin btn-type2 {
+    background: none;
+    border: none;
+    height: 33px;
+    width: 126px;
+    font-size: 14px;
+    background: $secundary-color;
+    color: $primary-color;
+    cursor: pointer;
+}
+
+@mixin btn-type1 {
+    background: none;
+    border: none;
+    height: 33px;
+    width: 108px;
+    font-size: 14px;
+    background: $hover-color;
+    color: $primary-color;
+    cursor: pointer;
+
+    &:hover {
+        background: $hover-color;
+        color: $primary-color;
+    }
+}
+
+@mixin btn-type3 {
+    background: none;
+    border: none;
+    height: 33px;
+    width: 112px;
+    font-size: 14px;
+    background: $secundary-color;
+    color: $primary-color;
+    border-radius: 32px;
+    margin-top: -15px;
+    cursor: pointer;
+
+
+}
+
+@mixin btn-nav-active {
+    background: none;
+    border: none;
+    height: 20px;
+    width: 79px;
+    font-size: 10px;
+    background: $secundary-color;
+    color: $primary-color;
+    border-radius: 19px;
+    cursor: pointer;
+
+}
+
+@mixin btn-nav {
+    background: none;
+    border: 1px solid $hover-color;
+    height: 20px;
+    width: 79px;
+    font-size: 10px;
+    background: $primary-color;
+    color: $hover-color;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+@mixin btn__square {
+    background: none;
+    border: 1px solid $bg-color;
+    height: 18px;
+    width: 66px;
+    font-size: 8px;
+    background: $primary-color;
+    color: $hover-color;
+    border-radius: 19px;
+    cursor: pointer;
+
+}
+
+@mixin btn__square-active {
+    background: none;
+    border: none;
+    height: 18px;
+    width: 66px;
+    font-size: 8px;
+    background: $secundary-color;
+    color: $primary-color;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+@mixin section__blue__btn {
+    background: none;
+    border: none;
+    height: 17px;
+    width: 76px;
+    font-size: 10px;
+    background: $primary-color;
+    color: $secundary-color;
+    cursor: pointer;
+}
+@mixin btn-input {
+    border: none;
+    height: 33px;
+    width: 99px;
+    font-size: 14px;
+    background: $hover-color;
+    color: $primary-color;
+    cursor: pointer;
+}
