@@ -1,0 +1,97 @@
+.hero{
+    padding-top: 160px;
+    }
+    li{
+        display: inline-block;
+        list-style: none;
+        padding-right: $gridgutter *2;
+        padding-top: 0;
+    }
+    a{
+        text-decoration: none;
+        color: $white;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0;
+        &.active{
+            color: $primary;
+        }
+        &:hover{
+            color: $primary;
+            transition: .7s;
+        }
+    }
+    .projects{
+        padding-top: 20px;
+        & a{
+            overflow: hidden;
+            display: block;
+            margin-bottom: 16px;
+            position: relative;
+            & .text__projects{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: rgba($graydark, 0.6);
+                color: $white;
+                box-sizing: border-box;
+                padding: $gridgutter;
+                opacity: 0;
+                transition: .7s;
+            }
+            &:hover{
+                .img__projects{
+                    transform: scale(1.2);
+                }
+                .text__projects{
+                    opacity: 1;
+                }
+            }    
+        }
+        & .title{
+            font-size: 24px;
+            font-weight: 400;
+        }
+        & .subtitle{
+            padding-bottom: 30px;
+            h5{
+                margin: 0;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            p{
+                margin:0
+            }
+        }
+        & .text{
+            margin: 0;
+            padding-top: 0;
+            padding-bottom: 40px;
+        }
+}
+    .arrow{
+        padding-top: 40px;
+        padding-bottom: 40px; 
+        a{
+            font-size: 18px;
+            font-weight: 400;    
+        }
+    } 
+
+footer{
+    width: 100%;
+    background: $gray;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    a{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    span{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

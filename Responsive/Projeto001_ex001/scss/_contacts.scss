@@ -1,0 +1,13 @@
+.hero__contact {
+    margin-top: $gridgutter*4;
+    height: 87vh;
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__section {
+    justify-self: flex-end;
+    margin-top: auto;
+}

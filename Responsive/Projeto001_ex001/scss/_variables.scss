@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+$graydark: #232323;
+$secundary-color: rgba(35, 35, 35, 0.6);
+$white: #FFFFFF;
+$pink: #D27979;
+$black:#121212;
+
+
+
+$animationtime: 0.4;
+
+$tablet: 750px;
+$desktop: 960px;
+$desktoplg: 1400px;
+
+$gridcolumns: 6;
+$gridgutter: 20px;
+
+$gridwidth: calc(100% - #{$gridgutter * 2});
+$gridwidtht: calc(90% - #{$gridgutter});
+$gridwidthd: $desktop - $gridgutter * 2;
+$gridwidthdlg: $desktoplg - $gridgutter * 3;
+
+$basefontsizemobile: $gridgutter / 3 * 2;
+$basefontsizetablet: $gridgutter / 3 * 2 + 1;
+$basefontsizedesktop: $gridgutter / 3 * 2 + 2;
